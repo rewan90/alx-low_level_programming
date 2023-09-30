@@ -38,7 +38,6 @@ int is_palindrome(char *s)
  * Return: 0 or 1
  */
 
-
 int check(char *s, int start, int end, int pair)
 {
 
