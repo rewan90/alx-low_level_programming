@@ -1,5 +1,5 @@
-#ifndef _list_H_
-#define _list_H_
+#ifndef _lists_H_
+#define _lists_H_
 
 #include <stddef.h>
 /**
@@ -30,4 +30,4 @@ size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
-#endif /* _list_H_ */
+#endif /* _lists_H_ */
